@@ -13,22 +13,20 @@ The Pixel Tracker Application is a web-based tool that allows users to visualize
 The project is divided into two main parts: the backend and the frontend.
 
 ### Backend
-- **src/controllers/eventsController.ts**: Handles CRUD operations for event data.
-- **src/models/event.ts**: Defines the Mongoose model for event data.
-- **src/routes/events.ts**: Sets up API routes for event-related operations.
-- **src/server.ts**: Entry point for the backend application, initializes the server and connects to MongoDB.
+- **src/controllers/eventsController.js**: Handles CRUD operations for event data.
+- **src/models/event.js**: Defines the Mongoose model for event data.
+- **src/routes/events.js**: Sets up API routes for event-related operations.
+- **src/server.js**: Entry point for the backend application, initializes the server and connects to MongoDB.
 - **package.json**: Lists backend dependencies and scripts.
-- **tsconfig.json**: TypeScript configuration for the backend.
 - **README.md**: Documentation for the backend.
 
 ### Frontend
 - **public/index.html**: Main HTML file serving the React application.
-- **src/components/Canvas.tsx**: Renders the canvas and handles mouse events.
-- **src/services/api.ts**: Functions for making API calls to the backend.
-- **src/App.tsx**: Main application component.
-- **src/index.tsx**: Entry point for the React application.
+- **src/components/Canvas.jsx**: Renders the canvas and handles mouse events.
+- **src/services/api.js**: Functions for making API calls to the backend.
+- **src/App.jsx**: Main application component.
+- **src/index.jsx**: Entry point for the React application.
 - **package.json**: Lists frontend dependencies and scripts.
-- **tsconfig.json**: TypeScript configuration for the frontend.
 - **README.md**: Documentation for the frontend.
 
 ## Setup Instructions
@@ -56,7 +54,7 @@ The project is divided into two main parts: the backend and the frontend.
    ```
 
 ## Technologies Used
-- **Frontend**: React, TypeScript
+- **Frontend**: React, JavaScript
 - **Backend**: Node.js, Express, Mongoose
 - **Database**: MongoDB
 
