@@ -48,7 +48,7 @@ This is the backend part of the Pixel Tracker application. It is built using Nod
 - **src/controllers**: Contains the event controller for handling requests.
 - **src/models**: Contains the Mongoose model for events.
 - **src/routes**: Contains the routes for event-related API endpoints.
-- **src/server.ts**: Entry point for the backend application.
+- **src/server.js**: Entry point for the backend application.
 
 ## License
 
