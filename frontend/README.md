@@ -44,10 +44,10 @@ This will start the development server and open the application in your default 
 ### Project Structure
 
 - `public/index.html`: The main HTML file that serves the React application.
-- `src/components/Canvas.tsx`: The component responsible for rendering the canvas and handling mouse events.
-- `src/services/api.ts`: Contains functions for making API calls to the backend.
-- `src/App.tsx`: The main application component.
-- `src/index.tsx`: The entry point for the React application.
+- `src/components/Canvas.jsx`: The component responsible for rendering the canvas and handling mouse events.
+- `src/services/api.js`: Contains functions for making API calls to the backend.
+- `src/App.jsx`: The main application component.
+- `src/index.jsx`: The entry point for the React application.
 
 ### API Integration
 
